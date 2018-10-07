@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$pdo=new PDO("mysql:dbname=calendar;host=127.0.0.1","root","");
+$pdo=new PDO("mysql:dbname=calendar;host=127.0.0.1","root","z5VqdJiRmcJea4");
 //si hay una accion, respeto la accion que viene del formulario, sino -> solo lectura
 $accion= (isset($_GET['accion']))?$_GET['accion']:'leer';
 
